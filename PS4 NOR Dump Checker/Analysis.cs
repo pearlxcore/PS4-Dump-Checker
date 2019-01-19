@@ -64,31 +64,10 @@ namespace PS4_NOR_Dump_Checker
                     countff = countff / (double)dump.Length * 100.0;
                     count00 = count00 / (double)dump.Length * 100.0;
                     countother = countother / 254.0 / (double)dump.Length * 100.0;
-                    if (dump.Length < 17000000)
-                    {
-                        if (countff < 10.415 || countff > 10.48)
-                            tbFF.ForeColor = Color.Black;
-                        tbFF.Text = countff.ToString("0.00") + "%";
-                        if (count00 < 18.38 || count00 > 29.01)
-                            tb00.ForeColor = Color.Black;
-                        tb00.Text = count00.ToString("0.00") + "%";
-                        if (countother > 0.5)
-                            tbOther.ForeColor = Color.Black;
-                        tbOther.Text = countother.ToString("0.00") + "%";
-                    }
-                    if (dump.Length > 17000000)
-                    {
-                        if (countff < 18.25 || countff > 24.54)
-                            tbFF.ForeColor = Color.Black;
-                        tbFF.Text = countff.ToString("0.00") + "%";
-                        if (count00 < 1.43 || count00 > 2.68)
-                            tb00.ForeColor = Color.Black;
-                        tb00.Text = count00.ToString("0.00") + "%";
-                        if (countother > 0.5)
-                            tbOther.ForeColor = Color.Black;
-                        tbOther.Text = countother.ToString("0.00") + "%";
-                    }
-                    
+                    tbFF.Text = countff.ToString("0.00") + "%";
+                    tb00.Text = count00.ToString("0.00") + "%";
+                    tbOther.Text = countother.ToString("0.00") + "%";
+                     
                     break;
             }
         }
