@@ -2,7 +2,7 @@
 
 Tool to validate PS4 flash dump.
 
-Used Lib's:
+# Used Libs:
 
 Tools.dll                                
 nor4ps.dll                           
