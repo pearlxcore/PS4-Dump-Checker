@@ -1,6 +1,6 @@
 # PS4-Dump-Checker
 
-Tool to validate PS4 flash dump.
+Tool to validate PS4 flash dump. Missing CoreOS validation. Will be added soon.
 
 # Used Libs
 
