@@ -2,13 +2,6 @@
 
 Tool to validate PS4 flash dump. Missing CoreOS and perconsole block validation. Will be added soon.
 
-# Used Libs
-
-Tools.dll                                
-nor4ps.dll                           
-
-https://github.com/cfwprpht/Usefull_Libraries
-
 # Credit
 
 cfwprpht, xDPx, BwE, psdevwiki
